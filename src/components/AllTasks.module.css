@@ -1,0 +1,67 @@
+.allTasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.allTasks header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTaskCounter {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--blue-500);
+}
+
+.createdTaskCounter span {
+  border-radius: 50%;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.finishedTaskCounter {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--purple-500);
+}
+
+.finishedTaskCounter span {
+  border-radius: 50%;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.emptyTaskList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.emptyTaskList > img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+}
+
+.emptyTaskListMessage {
+  color: var(--gray-300);
+  line-height: 140%;
+}
+
+.emptyTaskListMessage > p:first-child {
+  font-weight: 700;
+}
